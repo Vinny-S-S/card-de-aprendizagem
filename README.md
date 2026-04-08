@@ -2,11 +2,11 @@
 
 Projeto desenvolvido como desafio do [Frontend Mentor](https://www.frontendmentor.io).
 
-Um card responsivo feito com \*\*HTML\*\* e \*\*CSS\*\*, aplicando boas práticas de layout, responsividade e animações.
+Um card responsivo feito com \*\*HTML\*\* e \*\*CSS\*\*, aplicando boas práticas de layout, responsividade e animações simples.
 
 \---
 
-\## 📸 Preview
+\##  Preview
 
 ![Preview do projeto](./imagens/captura-mobile.png)
 ![Preview do projeto](./imagens/captura-desktop.png)
@@ -14,7 +14,7 @@ Um card responsivo feito com \*\*HTML\*\* e \*\*CSS\*\*, aplicando boas prática
 
 \---
 
-\## 🚀 Tecnologias usadas
+\## Tecnologias usadas
 
 - HTML5
 - CSS3 (Flexbox, Media Queries, Transições)
@@ -22,7 +22,7 @@ Um card responsivo feito com \*\*HTML\*\* e \*\*CSS\*\*, aplicando boas prática
 
 \---
 
-\## 📚 O que aprendi
+\## O que aprendi
 
 - Diferença entre `height: 100vh` e `min-height: 100vh` para evitar cortes em mobile.
 - Como combinar múltiplos `transform` em uma única linha (`translateY` + `scale`).
@@ -32,7 +32,7 @@ Um card responsivo feito com \*\*HTML\*\* e \*\*CSS\*\*, aplicando boas prática
 
 \---
 
-\## 🛠️ Como usar
+\## Como usar
 
 1. Clone este repositório:
 
