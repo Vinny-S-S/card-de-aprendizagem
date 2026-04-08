@@ -38,4 +38,4 @@ Um card responsivo feito com \*\*HTML\*\* e \*\*CSS\*\*, aplicando boas prática
 
 \```bash
 
-git clone https://github.com/seuusuario/frontendmentor-card.git
+git clone https://github.com/Vinny-S-S/card-de-aprendizagem.git
