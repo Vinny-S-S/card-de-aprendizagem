@@ -1,0 +1,194 @@
+body {
+    background-color: #f4d03f;
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    flex-direction: column; /* fluxo vertical natural */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* evita cortes em mobile */
+    margin: 0;
+}
+
+/* === Cartão principal === */
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px 0; /* espaço entre card e outros elementos */
+}
+
+.card:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px) scale(1.05);
+    cursor: pointer;
+}
+
+.card-topo {
+    height: 150px;
+    overflow: hidden;
+}
+
+.card-topo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-conteudo {
+    padding: 16px;
+}
+
+.categoria {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f4d03f;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.categoria:hover {
+    color: #fff;
+    background-color: #f4d03f;
+    transform: scale(1.1);
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px 0;
+    color: #000;
+}
+
+.descricao {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.data {
+    font-size: 12px;
+    color: #777;
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    font-size: 12px;
+    color: #999;
+    margin-top: 16px;
+}
+
+.autor img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f4d03f;
+}
+
+/* === Seta === */
+.seta {
+    font-size: 22px;
+    color: #000;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin: 20px 0;
+}
+
+.seta:hover {
+    transform: translateY(-5px);
+    color: #fff;
+}
+
+/* === Rodapé === */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #555;
+    background-color: #fff;
+    padding: 8px 14px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin: 30px 0;
+}
+
+.attribution a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.attribution a:hover {
+    color: #f4d03f;
+}
+
+/* === Responsividade === */
+@media (max-width: 480px) {
+  body {
+    padding: 16px;
+  }
+
+  .card {
+    width: 100%; 
+    max-width: 360px; 
+    border-radius: 8px; 
+    transition: transform 0.3s, box-shadow 0.3 ease;
+  }
+
+  .card-topo {
+    height: 120px;
+  }
+
+  .card-conteudo {
+    padding: 20px;
+  }
+  
+  .card:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  }
+
+    .categoria {
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .categoria:hover {
+    transform: scale(1.05);
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .descricao {
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+
+  .seta {
+    font-size: 26px;
+    transform: transform 0.3s, color 0.3 ease;
+    margin-top: 16px;
+  }
+
+  .seta:hover {
+    transform: translateY(-4px);
+    color: #fff;
+  }
+
+  .attribution {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
