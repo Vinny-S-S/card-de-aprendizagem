@@ -10,7 +10,7 @@ Um card responsivo feito com \*\*HTML\*\* e \*\*CSS\*\*, aplicando boas prática
 
 ![Preview do projeto](./imagens/captura-mobile.png)
 ![Preview do projeto](./imagens/captura-desktop.png)
-🔗 [Solução publicada no GitHub Pages](https://seuusuario.github.io/frontendmentor-card)
+🔗 [Solução publicada no GitHub Pages](https://github.com/Vinny-S-S/card-de-aprendizagem)
 
 \---
 
