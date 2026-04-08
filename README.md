@@ -1,4 +1,4 @@
-﻿\# Cartão de Aprendizado
+﻿\# Desafio Frontend Mentor - Card de Aprendizado em HTML e CSS
 
 Projeto desenvolvido como desafio do [Frontend Mentor](https://www.frontendmentor.io).
 
